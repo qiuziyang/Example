@@ -1,5 +1,6 @@
 package threads;
 
+import java.util.BitSet;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -31,7 +32,6 @@ public class threadLocal {
         testRun2.start();
         testRun3.start();
         Lock lock = new ReentrantLock();
-
         Condition full = lock.newCondition();
 
     }

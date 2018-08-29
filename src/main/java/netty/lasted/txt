@@ -1,0 +1,3 @@
+1.让我们从 handler （处理器）的实现开始，handler 是由 Netty 生成用来处理 I/O 事件的。
+SimpleChatServerHandler实现
+2.SimpleChatServerInitializer 用来增加多个的处理类到 ChannelPipeline 上，包括编码、解码、SimpleChatServerHandler 等。
